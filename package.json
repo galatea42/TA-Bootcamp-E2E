@@ -15,6 +15,12 @@
     "wdio-chromedriver-service": "^8.0.0"
   },
   "scripts": {
-    "test": "wdio run wdio.conf.js"
+    "wdio": "wdio run wdio.conf.js",
+    "test":"wdio run wdio.conf.js",
+    "loginFeature": "wdio run wdio.conf.js --spec login.feature",
+    "checkboxes": "wdio run wdio.conf.js --spec checkboxes.feature",
+    "keys": "wdio run wdio.conf.js --spec key_presses.feature",
+    "addremove": "wdio run wdio.conf.js --spec add_remove_elements.feature",
+    "hovers": "wdio run wdio.conf.js --spec hovers.feature"
   }
 }
