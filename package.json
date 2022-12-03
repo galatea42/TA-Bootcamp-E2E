@@ -1,9 +1,9 @@
 {
   "name": "bootcamp_practical1",
   "version": "1.0.0",
-  "description": "First Test Automation Framework",
+  "description": "e2e-hometask",
   "main": "index.js",
-  "author": "Liena Tīdena",
+  "author": "Tatsiana Tsishkevich",
   "license": "MIT",
   "devDependencies": {
     "@wdio/allure-reporter": "^7.25.4",
@@ -16,11 +16,6 @@
   },
   "scripts": {
     "wdio": "wdio run wdio.conf.js",
-    "test":"wdio run wdio.conf.js",
-    "loginFeature": "wdio run wdio.conf.js --spec login.feature",
-    "checkboxes": "wdio run wdio.conf.js --spec checkboxes.feature",
-    "keys": "wdio run wdio.conf.js --spec key_presses.feature",
-    "addremove": "wdio run wdio.conf.js --spec add_remove_elements.feature",
-    "hovers": "wdio run wdio.conf.js --spec hovers.feature"
+    "test":"wdio run wdio.conf.js"
   }
 }
